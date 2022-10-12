@@ -15,7 +15,7 @@ const Cards = () => {
       <div className='flex flex-col gap-y-[30px] lg:flex-row lg:gap-x-[30px]'>
         {cards.map((card, cardIndex) => {
           // destructure card
-          const { icon, title, subtitle, delay } = card;
+          const { icon, title, subtitle} = card;
           return (
             <div
               key={cardIndex}
@@ -38,7 +38,7 @@ const Cards = () => {
                 {/* card subtitle */}
                 <p className='mb-6 text-light'>{subtitle}</p>
                 {/* arrow img */}
-                {index === cardIndex && <img src={ArrowImg} />}
+                {index === cardIndex && <img src={ArrowImg} alt='card' />}
               </div>
             </div>
           );
