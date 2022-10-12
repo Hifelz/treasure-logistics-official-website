@@ -3,20 +3,6 @@ import React from "react";
 
 const Form = () => {
   return (
-    // <section className='section'>
-    // <div className='container mx-auto'>
-    //         <form action="https://getform.io/f/{your-form-endpoint}" method="POST" enctype="multipart/form-data">
-    //             <input type='text' name='name' placeholder='Name'/>
-    //             <input type='number' name='message' placeholder='Number'/>
-    //             <input type='email' name='email' placeholder='Email'/>
-    //             <input type='text' name='message' placeholder='Address'/>
-    //             <textarea name='message' type='text' placeholder='Message' cols='30' row='10'/>
-    //             <button type='submit'>Submit</button>
-
-    //         </form>
-    // </div>
-
-    // </section>
     <section class="text-gray-600 body-font section">
       <div class="container px-5 pt-24  mx-auto flex flex-wrap justify-start">
         <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0 items-center">
@@ -88,12 +74,6 @@ const Form = () => {
               Message
             </label>
             <textarea cols='30' row='20' name="message" type="text" class="w-full h-[128px] bg-white rounded border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
-            {/* <input
-              type="text"
-              id="message"
-              name="message"
-              class="w-full bg-white rounded border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-            /> */}
           </div>
           <button className='btn btn-sm bg-accent hover:bg-accentHover w-[102px] text-white'>
             Submit
