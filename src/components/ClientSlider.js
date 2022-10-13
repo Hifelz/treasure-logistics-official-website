@@ -41,7 +41,7 @@ const ClientSlider = ({ clients }) => {
             className='border-t-[10px] rounded-t-[12px]'
           >
             {/* card */}
-            <div className='w-full mx-auto lg:max-w-[300px] xl:max-w-[350px] h-[250px] rounded-[12px] border border-grey py-6 px-[30px]'>
+            <div className='w-full mx-auto lg:max-w-[300px] xl:max-w-[350px]  h-auto rounded-[12px] border border-grey py-6 px-[30px]'>
               {/* person message */}
               <div className='mb-[30px]'>{message}</div>
               {/* person name, img & position */}
