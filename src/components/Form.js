@@ -22,7 +22,7 @@ const Form = () => {
         <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0"         data-aos='fade-up'
         data-aos-delay='200'>
           <h2 class="text-gray-900 text-lg text-[30px] font-medium title-font mb-5">
-            Sign Up
+            Book Now
           </h2>
           <form action="https://getform.io/f/7602fbcb-ef2f-46c9-9486-08de1e68b08d" method="POST" id='formlink'>
           <div class="relative mb-4">
