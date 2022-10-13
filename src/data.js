@@ -205,7 +205,7 @@ export const testimonials = {
       message:
       'You are a trustworthy dispatcher,humble,committed to your work 💯...your delivery is fast and reliable 💯....hard working dispatcher 100 💯 lastly your line is also available 💯not like other incompetent dispatchers❌....carry go ✔️✔️always together 💯 ',
       image: AvatarImg4,
-      name: 'Body Cre',
+      name: 'Body Care',
       position: 'CEO',
       borderColor: '#3EC1F3',
     },
@@ -225,10 +225,8 @@ export const footer = {
   links: [
     { name: 'Home', href: '/' },
     { name: 'About us', href: '/' },
-    // { name: 'Careers', href: '/' },
-    // { name: 'Pricing', href: '/' },
     { name: 'Features', href: '/' },
-    // { name: 'Blog', href: '/' },
+
   ],
   legal: [
     { name: 'Our office Address:'},
@@ -261,7 +259,7 @@ export const copyright = {
   copyText: 'Copyright @ 2022 damel design',
   social: [
     { icon: WhatsappIcon, href: 'https://wa.me/+2349051274834' },
-    { icon: GmailIcon, href: 'stephenduma60@gmail.com' },
-    { icon: PhoneIcon, href: '+2347089862698' },
+    { icon: GmailIcon, href: 'mailto:stephenduma60@gmail.com' },
+    { icon: PhoneIcon, href: 'tel:+2347089862698' },
   ],
 };
