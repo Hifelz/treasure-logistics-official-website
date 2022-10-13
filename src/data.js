@@ -196,9 +196,9 @@ export const testimonials = {
     },
     {
       message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
+        'Fast,reliable and dependable hard-working but easy to communicate with',
       image: AvatarImg3,
-      name: 'Dr. Olivia Hansen',
+      name: 'OOF collection',
       position: 'CEO',
       borderColor: '#4756DF',
     },
