@@ -33,12 +33,7 @@ const Hero = () => {
               data-aos='fade-down'
               data-aos-delay='700'
             >
-               <a href='#formlink'>
-              <button className='btn btn-md lg:btn-lg btn-accent flex justify-center items-center lg:gap-x-4'>
-                {btnText}
-                <HiOutlineChevronDown />
-              </button>
-               </a>
+
               <span className='text-light lg:lead lg:mb-0'>{compText}</span>
             </div>
           </div>
