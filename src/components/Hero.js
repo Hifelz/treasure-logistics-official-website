@@ -6,7 +6,7 @@ import { HiOutlineChevronDown } from 'react-icons/hi';
 
 const Hero = () => {
   // destructure hero data
-  const { title, subtitle, btnText, compText, image } = hero;
+  const { title, subtitle, btnText, image } = hero;
   return (
     <section className='min-h-[900px] py-12'>
       <div className='container mx-auto min-h-[900px] flex justify-center items-center'>
@@ -33,8 +33,12 @@ const Hero = () => {
               data-aos='fade-down'
               data-aos-delay='700'
             >
-
-              <span className='text-light lg:lead lg:mb-0'>{compText}</span>
+               <a href='#formlink'>
+              <button className='btn btn-md lg:btn-lg btn-accent flex justify-center items-center lg:gap-x-4'>
+                {btnText}
+                <HiOutlineChevronDown />
+              </button>
+               </a>
             </div>
           </div>
           {/* image */}

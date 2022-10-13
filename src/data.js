@@ -180,17 +180,17 @@ export const testimonials = {
   clients: [
     {
       message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
+        'Treasure logistic has accomplished in a few days what we expected would take 1–2 weeks. They have outstanding skills and experience."',
       image: AvatarImg1,
-      name: 'Cameron Williamson',
+      name: 'George',
       position: 'CEO',
       borderColor: '#FF7235',
     },
     {
       message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
+        'You delivery is swiftHave been having issues with rider,picking up is wahala,delivering in package will take 24-48hrs before the item get to the receiver What I do much like about your delivery is truth,your 12pm is 12pm..if I place a call for delivery if you tell me the item will be pickup 10am,it won’t exit that time and within 30mins the package is delivered. Thanks for making my business go smoothly,I really appreciate,God bless your business',
       image: AvatarImg2,
-      name: 'Shirley Hand',
+      name: 'Tanny moh',
       position: 'CEO',
       borderColor: '#FFBE21',
     },
@@ -269,8 +269,8 @@ export const copyright = {
   },
   copyText: 'Copyright @ 2022 damel design',
   social: [
-    { icon: WhatsappIcon, href: '/' },
-    { icon: GmailIcon, href: '/' },
-    { icon: PhoneIcon, href: '/' },
+    { icon: WhatsappIcon, href: 'https://wa.me/+2349051274834' },
+    { icon: GmailIcon, href: 'stephenduma60@gmail.com' },
+    { icon: PhoneIcon, href: '+2347089862698' },
   ],
 };
