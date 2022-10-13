@@ -180,7 +180,7 @@ export const testimonials = {
   clients: [
     {
       message:
-        'Treasure logistic has accomplished in a few days what we expected would take 1–2 weeks. They have outstanding skills and experience."',
+        'Treasure logistics has accomplished in a few days what we expected would take 1–2 weeks. They have outstanding skills and experience."',
       image: AvatarImg1,
       name: 'George',
       position: 'CEO',
@@ -188,9 +188,9 @@ export const testimonials = {
     },
     {
       message:
-        'You delivery is swift Have been having issues with my rider, picking up and delivering takes 24-48hrs before the item get to the receiver What I do much like about your delivery is truth,your 12pm is 12pm.if I place a call for delivery if you tell me the item will be pickup 10am,it wont exit that time and within 30mins the package is delivered. Thanks for making my business go smoothly,I really appreciate,God bless your business',
+        'Your delivery is swift. Have been having issues with a rider, pick-up  and delivery of package will take 24/48hrs before the item get to the receiver. What I love about your delivery is time management. if I place a call for delivery and you tell me the said time, it won’t excide said time and few mins the package is delivered Thanks for making my business go smoothly, I appreciate it, God bless your business',
       image: AvatarImg2,
-      name: 'Tanny moh',
+      name: 'Tanny Moh',
       position: 'CEO',
       borderColor: '#FFBE21',
     },
@@ -198,25 +198,17 @@ export const testimonials = {
       message:
         'Fast,reliable and dependable hard-working but easy to communicate with',
       image: AvatarImg3,
-      name: 'OOF collection',
+      name: 'OOF Collection',
       position: 'CEO',
       borderColor: '#4756DF',
     },
     {
       message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
+      'You are a trustworthy dispatcher,humble,committed to your work 💯...your delivery is fast and reliable 💯....hard working dispatcher 100 💯 lastly your line is also available 💯not like other incompetent dispatchers❌....carry go ✔️✔️always together 💯 ',
       image: AvatarImg4,
-      name: 'Aubrey Sanford',
+      name: 'Body Cre',
       position: 'CEO',
       borderColor: '#3EC1F3',
-    },
-    {
-      message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
-      image: AvatarImg5,
-      name: 'Terri Conroy',
-      position: 'CEO',
-      borderColor: '#BB7259',
     },
   ],
 };
