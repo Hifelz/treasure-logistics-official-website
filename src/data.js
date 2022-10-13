@@ -188,7 +188,7 @@ export const testimonials = {
     },
     {
       message:
-        'You delivery is swiftHave been having issues with rider,picking up is wahala,delivering in package will take 24-48hrs before the item get to the receiver What I do much like about your delivery is truth,your 12pm is 12pm..if I place a call for delivery if you tell me the item will be pickup 10am,it won’t exit that time and within 30mins the package is delivered. Thanks for making my business go smoothly,I really appreciate,God bless your business',
+        'You delivery is swift Have been having issues with my rider, picking up and delivering takes 24-48hrs before the item get to the receiver What I do much like about your delivery is truth,your 12pm is 12pm.if I place a call for delivery if you tell me the item will be pickup 10am,it wont exit that time and within 30mins the package is delivered. Thanks for making my business go smoothly,I really appreciate,God bless your business',
       image: AvatarImg2,
       name: 'Tanny moh',
       position: 'CEO',
