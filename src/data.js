@@ -21,7 +21,6 @@ import AvatarImg1 from '../src/assets/img/testimonial/avatar1.png';
 import AvatarImg2 from '../src/assets/img/testimonial/avatar2.png';
 import AvatarImg3 from '../src/assets/img/testimonial/avatar3.png';
 import AvatarImg4 from '../src/assets/img/testimonial/avatar4.png';
-import AvatarImg5 from '../src/assets/img/testimonial/avatar5.png';
 import CtaImg1 from '../src/assets/img/cta/image1.svg';
 import CtaImg2 from '../src/assets/img/cta/image2.svg';
 import WhatsappIcon from '../src/assets/img/copyright/icons8-whatsapp.svg';
