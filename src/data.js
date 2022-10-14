@@ -1,7 +1,7 @@
 // import images
 
 import HeroImg from '../src/assets/img/hero/image.svg';
-import Logo from '../src/assets/img/header/treasure-logistics-logo.png';
+import logo from '../src/assets/img/header/treasure-logistics-logo.png';
 import OverviewProductImg from '../src/assets/img/overview/product.svg';
 import FacebookImg from '../src/assets/img/overview/brands/facebook.svg';
 import GoogleImg from '../src/assets/img/overview/brands/google.svg';
@@ -29,7 +29,7 @@ import GmailIcon from '../src/assets/img/copyright/icons8-gmail-logo.svg';
 import PhoneIcon from '../src/assets/img/copyright/icons8-phone.svg';
 
 export const header = {
-  logo: Logo,
+  logo: logo,
   btnText: 'Request a Delivery',
 };
 
