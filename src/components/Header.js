@@ -29,7 +29,7 @@ const Header = () => {
       <div className='container mx-auto flex justify-between items-center'>
         {/* logo */}
         <a href='#feature' data-aos='fade-down' data-aos-delay='1000'>
-          <img src={Logo} alt='treasure logistics' />
+          <img  className='flex w-9 h-auto' src={Logo} alt='treasure logistics' />
           {/* <h3 className='font-bold'><em><bold>{Logo}</bold></em></h3> */}
         </a>
         {/* nav - initially hidden - show on desktop mode */}
