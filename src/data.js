@@ -258,6 +258,7 @@ export const copyright = {
     href: '/',
   },
   copyText: 'Copyright @ 2022 damel design',
+  
   social: [
     { icon: WhatsappIcon, href: 'https://wa.me/+2349051274834' },
     { icon: GmailIcon, href: 'mailto:stephenduma60@gmail.com' },
