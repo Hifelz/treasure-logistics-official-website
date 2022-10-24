@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 // import data
 import { header } from '../data';
 // import icons
@@ -20,6 +20,24 @@ const Header = () => {
       window.scrollY > 60 ? setIsActive(true) : setIsActive(false);
     });
   });
+  
+  let menuRef=useRef();
+
+  useEffect(() =>{
+    let handler = (e)=>{
+      if (!menuRef.current.contains(e.target)) {
+        setMobileNav(false);
+        console.log(menuRef.current);
+      }
+    };
+
+    document.addEventListener("mousedown", handler);
+
+    return() =>{
+      document.removeEventListener("mousedown", handler)
+    }
+  });
+
   return (
     <header
       className={`${
