@@ -18,9 +18,7 @@ const Form = () => {
     }));
   };
 
-  const onSubmit = (e) => {
-    e.preventDefault();
-
+  useEffect(() => {
     const checkEmptyState = Object.keys(formFields).find(
       (field) => formFields[field] === ""
     );
@@ -30,7 +28,7 @@ const Form = () => {
     } else {
       setEmptyState(false);
     }
-  };
+  }, [formFields, emptyState]);
 
   return (
     <section class="text-gray-600 body-font section">
@@ -60,7 +58,6 @@ const Form = () => {
             Book Now
           </h2>
           <form
-            onSubmit={onSubmit}
             action="https://getform.io/f/7602fbcb-ef2f-46c9-9486-08de1e68b08d"
             method="POST"
             id="formlink"
