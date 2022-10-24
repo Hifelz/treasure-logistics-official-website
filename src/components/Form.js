@@ -24,7 +24,7 @@ const Form = () => {
           <h2 class="text-gray-900 text-lg text-[30px] font-medium title-font mb-5">
             Book Now
           </h2>
-          <form action="https://getform.io/f/7602fbcb-ef2f-46c9-9486-08de1e68b08d" method="POST" id='formlink' required Validate>
+          <form action="https://getform.io/f/7602fbcb-ef2f-46c9-9486-08de1e68b08d" method="POST" id='formlink' required >
           <div class="relative mb-4">
             <label for="full-name" class="leading-7 text-sm text-gray-600">
               Full Name
@@ -44,6 +44,8 @@ const Form = () => {
               type="number"
               id="number"
               name="number"
+              required
+
               class="w-full bg-white rounded border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
@@ -76,7 +78,7 @@ const Form = () => {
             </label>
             <textarea cols='30' row='20' name="message" type="text" class="w-full h-[128px] bg-white rounded border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
           </div>
-          <button disabled={!formIsFilled} className='btn btn-sm bg-accent hover:bg-accentHover w-[102px] text-white'>
+          <button  className='btn btn-sm bg-accent hover:bg-accentHover w-[102px] text-white'>
             Submit
           </button>
           </form>
