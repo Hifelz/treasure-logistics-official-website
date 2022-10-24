@@ -20,7 +20,6 @@ const Header = () => {
       window.scrollY > 60 ? setIsActive(true) : setIsActive(false);
     });
   });
-  
   let menuRef=useRef();
 
   useEffect(() =>{
@@ -83,7 +82,7 @@ const Header = () => {
             mobileNav ? 'left-0' : '-left-full'
           }  fixed top-0 bottom-0 w-[60vw] lg:hidden transition-all`}
         >
-          <MobileNav />
+          <MobileNav ref={menuRef} />
         </div>
       </div>
     </header>
