@@ -1,17 +1,19 @@
-import React from 'react';
+import React from "react";
 // import data
-import { nav } from '../data';
+import { nav } from "../data";
 
-const MobileNav = () => {
+const MobileNav = ({ setMobileNav }) => {
   return (
-    <div className='bg-accent/95 w-full h-full'>
-      <ul className='h-full flex flex-col justify-center items-center gap-y-8'>
+    <div 
+    onMouseLeave={() => setMobileNav(false)}
+    className="bg-accent/95 w-full h-full">
+      <ul className="h-full flex flex-col justify-center items-center gap-y-8">
         {nav.map((item, index) => {
           // destructure item
           const { href, name } = item;
           return (
             <li key={index}>
-              <a className='link text-white text-xl' href={href}>
+              <a className="link text-white text-xl" href={href}>
                 {name}
               </a>
             </li>

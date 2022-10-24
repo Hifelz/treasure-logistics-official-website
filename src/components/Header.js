@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 // import data
 import { header } from '../data';
 // import icons
@@ -19,22 +19,6 @@ const Header = () => {
     window.addEventListener('scroll', () => {
       window.scrollY > 60 ? setIsActive(true) : setIsActive(false);
     });
-  });
-  let menuRef=useRef();
-
-  useEffect(() =>{
-    let handler = (e)=>{
-      if (!menuRef.current.contains(e.target)) {
-        setMobileNav(false);
-        console.log(menuRef.current);
-      }
-    };
-
-    document.addEventListener("mousedown", handler);
-
-    return() =>{
-      document.removeEventListener("mousedown", handler)
-    }
   });
 
   return (
@@ -82,7 +66,7 @@ const Header = () => {
             mobileNav ? 'left-0' : '-left-full'
           }  fixed top-0 bottom-0 w-[60vw] lg:hidden transition-all`}
         >
-          <MobileNav ref={menuRef}/>
+          <MobileNav setMobileNav={setMobileNav} />
         </div>
       </div>
     </header>
