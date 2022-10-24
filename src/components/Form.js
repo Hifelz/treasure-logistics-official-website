@@ -24,7 +24,7 @@ const Form = () => {
           <h2 class="text-gray-900 text-lg text-[30px] font-medium title-font mb-5">
             Book Now
           </h2>
-          <form action="https://getform.io/f/7602fbcb-ef2f-46c9-9486-08de1e68b08d" method="POST" id='formlink'>
+          <form action="https://getform.io/f/7602fbcb-ef2f-46c9-9486-08de1e68b08d" method="POST" id='formlink' required Validate>
           <div class="relative mb-4">
             <label for="full-name" class="leading-7 text-sm text-gray-600">
               Full Name
