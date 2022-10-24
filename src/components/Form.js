@@ -28,7 +28,7 @@ const Form = () => {
     } else {
       setEmptyState(false);
     }
-  }, [formFields, emptyState]);
+  }, [formFields]);
 
   return (
     <section class="text-gray-600 body-font section">
@@ -84,6 +84,7 @@ const Form = () => {
                 type="number"
                 id="number"
                 name="number"
+                required
                 class="w-full bg-white rounded border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
@@ -108,6 +109,7 @@ const Form = () => {
                 type="text"
                 id="address"
                 name="address"
+                required
                 class="w-full bg-white rounded border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
