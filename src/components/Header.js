@@ -82,7 +82,7 @@ const Header = () => {
             mobileNav ? 'left-0' : '-left-full'
           }  fixed top-0 bottom-0 w-[60vw] lg:hidden transition-all`}
         >
-          <MobileNav ref={menuRef} />
+          <MobileNav/>
         </div>
       </div>
     </header>

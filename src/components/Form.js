@@ -66,6 +66,7 @@ const Form = () => {
               type="text"
               id="address"
               name="address"
+              required
               class="w-full bg-white rounded border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
@@ -75,7 +76,7 @@ const Form = () => {
             </label>
             <textarea cols='30' row='20' name="message" type="text" class="w-full h-[128px] bg-white rounded border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
           </div>
-          <button className='btn btn-sm bg-accent hover:bg-accentHover w-[102px] text-white'>
+          <button disabled={!formIsFilled} className='btn btn-sm bg-accent hover:bg-accentHover w-[102px] text-white'>
             Submit
           </button>
           </form>
@@ -89,3 +90,6 @@ const Form = () => {
 };
 
 export default Form;
+
+//how to disable button in react.js?//
+
