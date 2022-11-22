@@ -14,7 +14,7 @@ const Footer = () => {
           {/* logo */}
           <div data-aos='fade-up' data-aos-offset='200' data-aos-delay='300'>
             {/* <img src={logo} alt='' /> */}
-            <h3><em><bold>{logo}</bold></em></h3>
+            {logo}
           </div>
           {/* list 1 */}
           <div data-aos='fade-up' data-aos-offset='200' data-aos-delay='500'>
