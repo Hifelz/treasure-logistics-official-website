@@ -167,7 +167,6 @@ export const pricing = {
 };
 
 
-
 export const cta = {
   title: 'Certificados',
   subtitle: 'Nossos produtos possuem as certificações exigidas, ao adquirir você está levando segurança para o seu dia',
@@ -184,8 +183,8 @@ export const footer = {
  
   atendimento: [
     { name: 'Horário de Atendimento:' },
-    { name: 'De segunda à sexta', href: '/'},
-    { name: 'das: 08:00 - 12:00 13:30 - 18:00', href: '/' },
+    { name: 'De segunda à sexta', },
+    { name: 'das: 08:00 - 12:00 13:30 - 18:00', },
     
   ], links: [
     { name: 'Home', href: '/' },
@@ -195,37 +194,36 @@ export const footer = {
   ],
   legal2: [
     { name: 'Nosso endereço:' },
-    { name: 'Filial', href: '/'},
-    { name: 'Rua dona Rua Dr. Nereu Ramos, nº 197, Ed. Seixas Business Tower, Sala 306', href: '/' },
+    { name: 'Filial', },
+    { name: 'Rua dona Rua Dr. Nereu Ramos, nº 197, Ed. Seixas Business Tower, Sala 306', },
     { name: 'Telefone :' },
-    { name: '(47) 3515-2105', href: '/' },
+    { name: '(47) 3515-2105',},
   
   ],
   newsletter: {
-    title: 'Newsletter',
-    subtitle: 'Over 25000 people have subscribed',
+    title: '',
+    subtitle: '',
   },
   form: {
-    placeholder: 'Enter your email',
-    btnText: 'Subscribe',
-    smallText: 'We don’t sell your email and spam',
+    placeholder: '',
+    smallText: '',
   },
 };
 
 export const copyright = {
   link1: {
-    name: 'Privacy & Terms',
+    name: '',
     href: '/',
   },
   link2: {
-    name: 'Contact us',
+    name: 'Contate-nos',
     href: '/',
   },
   copyText: 'Copyright @ 2022 hifelz',
 
   social: [
-    { icon: WhatsappIcon, href: 'https://wa.me/+2349051274834' },
-    { icon: GmailIcon, href: 'mailto:stephenduma60@gmail.com' },
-    { icon: PhoneIcon, href: 'tel:+2347089862698' },
+    { icon: WhatsappIcon, href: '' },
+    { icon: GmailIcon, href: '' },
+    { icon: PhoneIcon, href: '' },
   ],
 };
