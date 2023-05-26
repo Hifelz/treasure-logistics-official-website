@@ -8,11 +8,11 @@ import 'aos/dist/aos.css';
 // import components
 import Header from './components/Header';
 import Hero from './components/Hero';
+import Swipe from './components/Swiper';
 import Feature1 from './components/Feature1';
 import Feature2 from './components/Feature2';
 import Feature3 from './components/Feature3';
 import Product from './components/Product';
-import Testimonials from './components/Testimonials';
 import Cta from './components/Cta';
 import Footer from './components/Footer';
 import From from './components/Form';
@@ -27,12 +27,13 @@ const App = () => {
     <div className='overflow-hidden'>
       <Header />
       <Hero />
+      <Swipe />
       <Feature1 />
       <Feature2 />
       <Feature3 />
       <Product />
       <From />
-      <Testimonials />
+      
       <Cta />
       <Footer />
     </div>

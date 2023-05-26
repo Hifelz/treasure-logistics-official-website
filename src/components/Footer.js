@@ -6,7 +6,7 @@ import Copyright from '../components/Copyright';
 
 const Footer = () => {
   // destructure footer data
-  const { logo, links, legal, newsletter, form } = footer;
+  const { logo, links, atendimento, newsletter, form } = footer;
   return (
     <footer className='pt-[142px] pb-[60px]'>
       <div className='container mx-auto'>
@@ -38,9 +38,9 @@ const Footer = () => {
           </div>
           {/* list 2 */}
           <div data-aos='fade-up' data-aos-offset='200' data-aos-delay='700'>
-            <div className='text-2xl uppercase font-medium mb-6'>Legal</div>
+            <div className='text-2xl uppercase font-medium mb-6'>Atendimento</div>
             <ul className='flex flex-col gap-y-3'>
-              {legal.map((item, index) => {
+              {atendimento.map((item, index) => {
                 // destructure item
                 const { href, name } = item;
                 return (

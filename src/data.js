@@ -1,7 +1,7 @@
 // import images
 
-import HeroImg from '../src/assets/img/hero/image.svg';
-import logo from '../src/assets/img/header/treasure-logistics-logo.png';
+import HeroImg from '../src/assets/img/hero/Group-11.png';
+import logo from '../src/assets/img/header/aoclogo.png';
 import OverviewProductImg from '../src/assets/img/overview/product.svg';
 import FacebookImg from '../src/assets/img/overview/brands/facebook.svg';
 import GoogleImg from '../src/assets/img/overview/brands/google.svg';
@@ -11,39 +11,38 @@ import SamsungImg from '../src/assets/img/overview/brands/samsung.svg';
 import Feature1Img from '../src/assets/img/features/feature1-img.svg';
 import Feature2Img from '../src/assets/img/features/feature2-img.svg';
 import Feature3Img from '../src/assets/img/features/feature3-img.svg';
-import ArrowRightImg from '../src/assets/img/features/arrow-right.svg';
-import CardIconImg1 from '../src/assets/img/product/cards/icon1.svg';
-import CardIconImg2 from '../src/assets/img/product/cards/icon2.svg';
-import CardIconImg3 from '../src/assets/img/product/cards/icon3.svg';
+import CardIconImg1 from '../src/assets/img/product/cards/task.svg';
+import CardIconImg2 from '../src/assets/img/product/cards/task2.svg';
+import CardIconImg3 from '../src/assets/img/product/cards/task3.svg';
 import PricingIcon1 from '../src/assets/img/pricing/icon1.svg';
 import PricingIcon2 from '../src/assets/img/pricing/icon2.svg';
 import PricingIcon3 from '../src/assets/img/pricing/icon3.svg';
-import AvatarImg1 from '../src/assets/img/testimonial/avatar1.png';
-import AvatarImg2 from '../src/assets/img/testimonial/avatar2.png';
-import AvatarImg3 from '../src/assets/img/testimonial/avatar3.png';
-import AvatarImg4 from '../src/assets/img/testimonial/avatar4.png';
-import CtaImg1 from '../src/assets/img/cta/image1.svg';
-import CtaImg2 from '../src/assets/img/cta/image2.svg';
+import CtaImg1 from '../src/assets/img/cta/Anvisa.svg';
+import CtaImg2 from '../src/assets/img/cta/CIAL.svg';
+import CtaImg3 from '../src/assets/img/cta/IBAMA.svg';
+import CtaImg4 from '../src/assets/img/cta/Inmetro.svg';
+import CtaImg5 from '../src/assets/img/cta/MAPA.svg';
 import WhatsappIcon from '../src/assets/img/copyright/icons8-whatsapp.svg';
 import GmailIcon from '../src/assets/img/copyright/icons8-gmail-logo.svg';
 import PhoneIcon from '../src/assets/img/copyright/icons8-phone.svg';
 
 export const header = {
   logo: logo,
-  btnText: 'Request a Delivery',
+  btnText: 'Entre em Contato',
 };
 
 export const nav = [
-  { name: 'About us', href: '#feature' },
-  { name: 'Features', href: '#cta' },
-  { name: 'Location', href: '#product'},
-  { name: 'Feedback', href: '#testimonial' },
+  { name: 'Sobre nós', href: '#feature' }, 
+  { name: 'Catalogo', href: '#swipe' },
+  { name: 'Certificados', href: '#cta' },
+  { name: 'Objetivos', href: '#product' },
+
 ];
 
 export const hero = {
-  title: 'Lets SUPPORT your BUSINESS',
-  subtitle: 'Helps you to organize and deliver',
-  btnText: 'Place Order',
+  title: 'Soluções em Comércio e Distribuição',
+  subtitle: 'A AOC Imports está há mais de 10 anos no mercado, trabalhando constantemente na criação e desenvolvimento de produtos eficazes e inovadores.',
+  btnText: 'Contate-nos',
   compText: '— Web, iOS and Android',
   image: HeroImg,
 };
@@ -76,55 +75,47 @@ export const overview = {
 
 export const features = {
   feature1: {
-    pretitle: 'Alwalys ontime',
-    title: 'Real-time Delivery',
+    pretitle: 'Porque escolher a AOC Imports?',
+    title: 'Melhoria contínua',
     subtitle:
-      'Send your Documents, Merchandise, Textile Material (AsoEbi), Birthday Cards/Presents, Christmas Cards/Presents, Party Invitations, Hampers, Gift Baskets, Wedding Invitations, Diaries, Calendars and Anniversary Presents etc. to any location of your choice',
-    btnLink: 'Learn more',
-    btnIcon: ArrowRightImg,
+      'Tornamos a opeção mais segura e transparente levando profissionalismo a todo ciclo produtivo',
     image: Feature1Img,
   },
   feature2: {
-    pretitle: 'Free some cost',
-    title: 'Save cost for you',
+    title: 'Experiência de Mercado',
     subtitle:
-      'You spend less when you deliver with us',
-    btnLink: 'Learn more',
-    btnIcon: ArrowRightImg,
+      'Estamos há mais de 10 anos no mercado, trabalhando constantemente na criação e desenvolvimento de produtos eficazes e inovadores.',
     image: Feature2Img,
   },
   feature3: {
-    pretitle: 'Available anytime',
-    title: 'We are available anytime when you need',
+    title: 'Flexibilidade nas negociações',
     subtitle:
-      '',
-    btnLink: '',
-    btnIcon: ArrowRightImg,
+      'Estamos atentos às novidades do mercado, desde a redução de taxas até os pequenos detalhes no trâmites internacionais',
     image: Feature3Img,
   },
 };
 
 export const product = {
-  title: 'Now in Ogun State Abekouta.',
+  title: 'Experiência que faz diferença ',
   subtitle:
-    'No 15 Oluwole street saraki Adigbe, Ogun state Abeokuta.',
+    ' Durante essa longa jornada comercializamos e distribuímos para todo o Brasil, com qualidade em nossos produtos, possibilitando que fortalecemos nossas parcerias e construíssemos conexões duradouras.',
   cards: [
     {
       icon: CardIconImg1,
-      title: 'Indoor',
-      subtitle: 'of Ogun State',
+      title: 'Missão',
+      subtitle: 'Diminuir distâncias e contribuir com o crescimento da economia nacional e internacional.',
       delay: 200,
     },
     {
       icon: CardIconImg2,
-      title: 'All Areas',
-      subtitle: 'of Ogun State',
+      title: 'Visão',
+      subtitle: 'Ser referência nacional em qualidade e produtos eficazes.',
       delay: 400,
     },
     {
       icon: CardIconImg3,
-      title: 'Outdoor',
-      subtitle: 'of Ogun State',
+      title: 'Valores',
+      subtitle: 'Fidelidade, foco e competência nas vendas oferecidas aos nossos clientes. Além da valorização de nossos colaboradores.',
       delay: 600,
     },
   ],
@@ -175,67 +166,40 @@ export const pricing = {
   ],
 };
 
-export const testimonials = {
-  title: 'We have Thousands of best wishers',
-  clients: [
-    {
-      message:
-        'Treasure logistics has accomplished in a few days what we expected would take 1–2 weeks. They have outstanding skills and experience."',
-      image: AvatarImg1,
-      name: 'George',
-      position: 'CEO',
-      borderColor: '#FF7235',
-    },
-    {
-      message:
-        'Your delivery is swift. Have been having issues with a rider, pick-up  and delivery of package will take 24/48hrs before the item get to the receiver. What I love about your delivery is time management. if I place a call for delivery and you tell me the said time, it won’t excide said time and few mins the package is delivered Thanks for making my business go smoothly, I appreciate it, God bless your business',
-      image: AvatarImg2,
-      name: 'Tanny Moh',
-      position: 'CEO',
-      borderColor: '#FFBE21',
-    },
-    {
-      message:
-        'Fast,reliable and dependable hard-working but easy to communicate with',
-      image: AvatarImg3,
-      name: 'OOF Collection',
-      position: 'CEO',
-      borderColor: '#4756DF',
-    },
-    {
-      message:
-      'You are a trustworthy dispatcher,humble,committed to your work 💯...your delivery is fast and reliable 💯....hard working dispatcher 100 💯 lastly your line is also available 💯not like other incompetent dispatchers❌....carry go ✔️✔️always together 💯 ',
-      image: AvatarImg4,
-      name: 'Body Care',
-      position: 'CEO',
-      borderColor: '#3EC1F3',
-    },
-  ],
-};
+
 
 export const cta = {
-  title: '20,000+ Delivered merchandise goods across Nigeria',
-  subtitle: 'Treasure logistics Company Limited',
+  title: 'Certificados',
+  subtitle: 'Nossos produtos possuem as certificações exigidas, ao adquirir você está levando segurança para o seu dia',
   btnText: '',
   img1: CtaImg1,
   img2: CtaImg2,
+  img3: CtaImg3,
+  img4: CtaImg4,
+  img5: CtaImg5,
 };
 
 export const footer = {
-  logo: 'Treasure Logistics',
-  links: [
+  logo: 'AOC Imports',
+ 
+  atendimento: [
+    { name: 'Horário de Atendimento:' },
+    { name: 'De segunda à sexta', href: '/'},
+    { name: 'das: 08:00 - 12:00 13:30 - 18:00', href: '/' },
+    
+  ], links: [
     { name: 'Home', href: '/' },
     { name: 'About us', href: '/' },
     { name: 'Features', href: '/' },
 
   ],
-  legal: [
-    { name: 'Our office Address:'},
-    { name: 'No 15 Oluwole street saraki Adigbe, Ogun state Abeokuta.', href: '/' },
-    { name: 'Telephone :'},
-    { name: '+234-905-127-4834 +234-7089862698', href: '/' },
-    { name: 'G-mail:'},
-    { name: 'stephanaduma60@gmail.com', href: '/' },
+  legal2: [
+    { name: 'Nosso endereço:' },
+    { name: 'Filial', href: '/'},
+    { name: 'Rua dona Rua Dr. Nereu Ramos, nº 197, Ed. Seixas Business Tower, Sala 306', href: '/' },
+    { name: 'Telefone :' },
+    { name: '(47) 3515-2105', href: '/' },
+  
   ],
   newsletter: {
     title: 'Newsletter',
@@ -257,8 +221,8 @@ export const copyright = {
     name: 'Contact us',
     href: '/',
   },
-  copyText: 'Copyright @ 2022 damel design',
-  
+  copyText: 'Copyright @ 2022 hifelz',
+
   social: [
     { icon: WhatsappIcon, href: 'https://wa.me/+2349051274834' },
     { icon: GmailIcon, href: 'mailto:stephenduma60@gmail.com' },

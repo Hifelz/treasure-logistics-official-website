@@ -5,7 +5,7 @@ import { cta } from '../data';
 
 const Cta = () => {
   // destructure cta data
-  const { title, subtitle, img1, img2 } = cta;
+  const { title, subtitle, img1, img2, img3, img4, img5 } = cta;
   return (
     <section className='section bg-cta bg-cover bg-left-top' id='cta'>
       <div className='max-w-[1340px] mx-auto px-[25px]'>
@@ -27,21 +27,43 @@ const Cta = () => {
           </p>
         </div>
         {/* btn & images */}
-        <div className='flex justify-between'>
+        <div className='flex justify-evenly'>
           <img
-            className='hidden xl:flex'
+            className='flex sm:flex'
             src={img1}
             alt=''
             data-aos='zoom-out-right'
             data-aos-delay='700'
           />
           <img
-            className='hidden xl:flex'
+            className='flex sm:flex'
             src={img2}
             alt=''
             data-aos='zoom-out-left'
             data-aos-delay='700'
           />
+           <img
+            className='flex sm:flex'
+            src={img3}
+            alt=''
+            data-aos='zoom-out-right'
+            data-aos-delay='700'
+          />
+           <img
+            className='flex sm:flex'
+            src={img4}
+            alt=''
+            data-aos='zoom-out-right'
+            data-aos-delay='700'
+          />
+           <img
+            className='flex  sm:flex'
+            src={img5}
+            alt=''
+            data-aos='zoom-out-right'
+            data-aos-delay='700'
+          />
+         
         </div>
       </div>
     </section>

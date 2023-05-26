@@ -39,14 +39,16 @@ const Form = () => {
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            Why don't you give us a try
+            Entre em contato
+            com a nossa equipe
+            de atendimento
           </h2>
           <p
             class="leading-relaxed text-center mb-3 text-[30px] font-medium"
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            We're <em>READY</em> to <em>RUN</em> for <em>YOU!</em>
+            Estamos <em>prontos</em> para <em> atende-los!</em>
           </p>
         </div>
         <div
@@ -54,9 +56,6 @@ const Form = () => {
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          <h2 class="text-gray-900 text-lg text-[30px] font-medium title-font mb-5">
-            Book Now
-          </h2>
           <form
             action="https://getform.io/f/7602fbcb-ef2f-46c9-9486-08de1e68b08d"
             method="POST"
@@ -65,26 +64,13 @@ const Form = () => {
           >
             <div class="relative mb-4">
               <label for="full-name" class="leading-7 text-sm text-gray-600">
-                Full Name
+               Seu Nome
               </label>
               <input
                 onChange={(e) => handleChange(e)}
                 type="text"
                 id="full-name"
                 name="fullName"
-                class="w-full bg-white rounded border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              />
-            </div>
-            <div class="relative mb-4">
-              <label for="number" class="leading-7 text-sm text-gray-600">
-                Phone Number
-              </label>
-              <input
-                onChange={(e) => handleChange(e)}
-                type="number"
-                id="number"
-                name="number"
-                required
                 class="w-full bg-white rounded border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
@@ -101,14 +87,14 @@ const Form = () => {
               />
             </div>
             <div class="relative mb-4">
-              <label for="address" class="leading-7 text-sm text-gray-600">
-                Address
+              <label for="number" class="leading-7 text-sm text-gray-600">
+                Telefone
               </label>
               <input
                 onChange={(e) => handleChange(e)}
-                type="text"
-                id="address"
-                name="address"
+                type="number"
+                id="number"
+                name="number"
                 required
                 class="w-full bg-white rounded border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
@@ -130,10 +116,10 @@ const Form = () => {
               disabled={emptyState}
               className="btn btn-sm bg-accent hover:bg-accentHover w-[102px] text-white"
             >
-              Submit
+              Enviar
             </button>
           </form>
-          <p class="text-xs text-gray-500 mt-3">Literally Always Ready.</p>
+        
         </div>
       </div>
     </section>

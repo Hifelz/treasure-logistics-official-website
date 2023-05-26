@@ -5,7 +5,7 @@ import { nav } from '../data';
 const Nav = () => {
   return (
     <nav>
-      <ul className='flex gap-x-10'>
+      <ul className='flex gap-x-20'>
         {nav.map((item, index) => {
           // destructure item
           const { href, name } = item;
